@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const Synthesizer = () => {
   const playSound = (sound) => {
-    const audio = new Audio(`/${sound}.mp3`);
+    const audio = new Audio(`/yandex-synthesizer/${sound}.mp3`);
     audio.play();
   };
 
